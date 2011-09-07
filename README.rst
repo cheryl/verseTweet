@@ -1,4 +1,6 @@
-# About
+-------
+ About
+-------
 
 A semi-hastily hacked together twitter bot in bash for tweeting whole bible verses using the ESV.  Also known as a personal project to learn a bit more about bash.
 
@@ -7,7 +9,9 @@ When installing, please include a 'config.sh' file in the src/ folder and enter 
 Thanks to 360percents.com for the twitter api script in src/tweeter.sh (modified) :)
 
 
-# Issues
+--------
+ Issues
+--------
 
 * 140 characters at splitter is more than 140 characters according to tweeter
 * some juggling with numbers in splitter - not quite sure what is happening, but at least it works
