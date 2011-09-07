@@ -1,8 +1,9 @@
 # About
 
-A hastily hacked together twitter bot.
+A semi-hastily hacked together twitter bot in bash for tweeting whole bible verses using the ESV.
 Thanks to 360percents.com for the twitter api script in src/tweeter.sh (modified) :)
 
 # Issues
+
 * 140 characters at splitter is more than 140 characters according to tweeter
 * some juggling with numbers in splitter - not quite sure what is happening, but at least it works
