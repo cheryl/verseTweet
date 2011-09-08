@@ -16,9 +16,10 @@ options=$options'&include-headings=false'
 options=$options'&include-subheadings=false'
 options=$options'&include-selahs=false'
 options=$options'&line-length=500'
+options=$options'&correct-end-punctuation=false'
 
 # because vref includes a newline. duh
-	valuefromapi=`curl --silent -G "http://www.esvapi.org/v2/rest/verse?key=$key&$options&passage=$vref"`
+valuefromapi=`curl --silent -G "http://www.esvapi.org/v2/rest/verse?key=$key&$options&passage=$vref"`
 
 # add a link
 link='esv.to/'$vref;
