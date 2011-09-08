@@ -124,7 +124,7 @@ then
 	verse=$maxverses
 fi
 
-echo $book$chapter:$verse
+echo $book$chapter.$verse
 
 
 ##################
